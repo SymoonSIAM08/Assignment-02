@@ -460,8 +460,129 @@ p {
     filter: grayscale(0%);
 }
 
+/* team-selection */
 
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+}
 
+.team-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.team-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+}
+
+.team-section p {
+    font-size: 1.2em;
+    margin-bottom: 40px;
+}
+
+.team-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.team-member {
+    background-color: #1a1a1a;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.team-member img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.team-member h3 {
+    margin: 15px 0 5px;
+    font-size: 1.5em;
+}
+
+.team-member p {
+    font-size: 1.2em;
+    color: rgb(170, 170, 170);
+}
+
+/* footer-section */
+
+footer {
+    background-color: #000;
+    padding: 40px 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-left {
+    max-width: 500px;
+    flex: 1;
+    margin-bottom: 30px;
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    max-width: 800px;
+    flex: 2;
+    text-align: right;
+}
+
+.footer-right .footer-column {
+    text-align: left; /* Aligns the text inside the columns to the left */
+}
+
+.footer-column h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.footer-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-column ul li {
+    margin-bottom: 10px;
+}
+
+.footer-column ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 1.1em;
+}
+
+.footer-column ul li a:hover {
+    color: #ff5733;
+}
+
+.footer-copyright {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.9em;
+    color: #555;
+    width: 100%;
+}
+
+.footer-divider {
+    border: none;
+    border-top: 2px solid #fff; 
+    margin: 20px 0;
+    width: 100%; 
+}
 
 
 
@@ -642,6 +763,23 @@ p {
     
         .images {
             margin-top: 1.5rem;
+        }
+
+        /* team-selection */
+
+
+        .team-container {
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+        }
+
+        /* footer-section */
+    
+        .footer-right {
+            grid-template-columns: 1fr;
+        }
+    
+        .footer-left, .footer-right {
+            text-align: center;
         }
   
 
