@@ -239,6 +239,67 @@ body {
 
 
 }
+/*  Run an Extra Mile Section */
+.extra-mile {
+    
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    background-color:rgb(34, 34, 34);
+    /* margin: 2rem 0; */
+    border-radius: 10px;
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.extra-mile-content {
+    max-width: 400px;
+    margin-right: 2rem;
+}
+
+.extra-mile-content h2 {
+    margin-bottom: 1.5rem;
+}
+
+.extra-mile-content p {
+    margin-bottom: 2rem;
+}
+
+.extra-mile-content button {
+    padding: 0.8rem 1.5rem;
+    border: none;
+    border-radius: 28px;
+    background-color: rgb(230, 83, 60);
+    color: rgb(255, 255, 255);
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.extra-mile-image img {
+    max-width: 100%;
+    border-radius: 18px;
+    width: 250px;
+
+}
+
+.extra-mile-title{
+    font-size:3rem ;
+    font-weight:900 ;
+    color: rgb(255, 255, 255);
+
+
+}
+
+.extra-mile-description{
+    font-size: .9rem ;
+    font-weight:400 ;
+    color: rgba(255, 255, 255, 0.5);
+
+}
+
+
 
 
 
@@ -338,8 +399,51 @@ body {
 
     .description{
         font-size: 1rem;
-        
+
     }
+
+    /* extra-mile-section */
+
+    .extra-mile{
+        font-size: 2rem;
+        width: 330px;
+        align-items: center;
+        /* padding-right: 50px; */
+        margin-right: 500px;
+        margin-left: 18px;
+
+        /* justify-content: center; */
+    }
+
+    .extra-mile-content button {
+        align-items: center;
+        width: 100%;
+        margin-right: 20px ;
+        margin-left:20px ;
+    }
+
+    .extra-mile-image img{
+        width: 280px;
+        margin-left: 10px;
+        margin-right: 5px;
+
+
+    }
+
+    .extra-mile-title{
+        margin-right:20px ;
+        margin-left:5px ;
+
+    }
+
+    .extra-mile-description{
+        margin-right:20px ;
+        margin-left: 5px;
+
+    }
+
+
+
 
    
 
