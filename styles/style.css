@@ -78,9 +78,113 @@ body {
     color: #ff6347; 
 }
 
+/* banner-styles */
+.banner-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px;
+    color: white;
+}
+.banner-content {
+    max-width: 50%;
+}
+.banner-content h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+.fancy-text {
+    font-family: 'Cursive', sans-serif;
+    font-style: italic;
+    color: #e87d7d;
+}
+.banner-subtext {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+    color: rgba(255, 255, 255, 0.5);
+}
+.bnr-btns {
+    display: flex;
+    gap: 20px;
+}
+.bnr-btn {
+    padding: 15px 30px;
+    font-size: 1em;
+    border-radius: 15px;
+    text-decoration: none;
+    color: white;
+}
+.join-button {
+    background-color:rgb(230, 83, 60);
+}
+.download-button {
+    background-color: 1px	Inside
+    rgb(255, 255, 255);
+    border: 1px solid white;
+}
+.banner-image {
+    position: relative;
+    max-width: 50%;
+    height: auto;
+}
+.banner-image img {
+    max-width: 100%;
+    border-radius: 10px;
+    
+}
+.box-container {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.box {
+    position: absolute;
+    background-color: rgba(48, 48, 48, 0.54);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 0.9em;
+    text-align: center;
+    color: white;
+    backdrop-filter: blur(20px);
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    
+}
+.box-top {
+    
+    top:-430px; 
+    right: -30px;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: left;
+    
+}
 
-
-
+.box-bottom {
+    bottom: 20px; 
+    right: 300px; 
+    font-size: 1.5rem;
+    font-weight: 900;
+}
+.inner-1{
+    font-size: .82rem;
+    font-weight: 400;
+    text-align: left;
+    letter-spacing: 1px;
+    line-height: 20px;
+    color: rgba(255, 255, 255, 0.65);
+}
+.inner-2{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    letter-spacing: 0.5px;
+    color: rgba(239, 237, 232, 0.65);
+}
 
 
 
@@ -104,6 +208,9 @@ body {
     }
     .navbar{
         justify-content: space-between;
+        padding: 50px 20px;
+
+
     }
     .nav-item {
         width: 100%; 
@@ -111,6 +218,48 @@ body {
     .nav-link {
         display: block;
         text-align: center; 
+    }
+    /* banner section */
+
+    .banner-section {
+        flex-direction: column; 
+        align-items: flex-start; 
+    }
+
+    .banner-image {
+        width: 100%;
+        height: auto; 
+        margin-bottom: 20px; 
+    }
+
+    .box-top {
+        top: -70px; 
+        right: 70px;
+    }
+
+    .box-bottom {
+        bottom: 50px; 
+        right: -70px;
+    }
+
+    .box{
+        padding: 8px 16px;
+        font-size: 0.8em;
+    }
+
+    .banner-content h1 {
+        font-size: 1.5em;
+        margin-bottom: 10px;
+    }
+
+    .banner-subtext {
+        font-size: .7em;
+        margin-bottom: 25px;
+        
+    }
+    .bnr-btns{
+        margin-top: 25px;
+        margin-bottom: 30px;
     }
 
     
